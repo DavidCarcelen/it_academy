@@ -2,13 +2,13 @@ package n1ejercicio2;
 
 public class Coche {
     //ATR
-    static final String marca = "Jeep";
-    static String modelo;
-    final int potencia;
+    private static final String marca = "Jeep";
+    private static String modelo;
+    private final int potencia;
 
-    public Coche (String modelo, int potencia){
+    public Coche (String mod, int potencia){
         this.potencia = potencia;
-        this.modelo = modelo;
+        modelo = mod;
 
     }
     //SETTER de potencia, no deja hacer modificar el valor al ser final.

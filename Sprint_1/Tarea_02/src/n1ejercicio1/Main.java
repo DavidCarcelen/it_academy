@@ -9,17 +9,18 @@ public class Main {
         int num = 0;
         String nombre = "";
         double precio = 0;
-        Scanner input = new Scanner(System.in);
         String mensaje = "";
         Venta venta = new Venta();
+
+        Scanner input = new Scanner(System.in);
 
         System.out.println("Welcome");
         while (num != 4) {
 
             System.out.println("Seleccione opción:\n" +
-                    "1 añadir producto" +
-                    "2 suma total" +
-                    "3 lista productos" +
+                    "1 añadir producto\n" +
+                    "2 suma total\n" +
+                    "3 lista productos\n" +
                     "4 salir");
             num = input.nextInt();
             switch (num) {
@@ -40,9 +41,9 @@ public class Main {
                     mensaje= "adiós";
                     break;
             }
-            if (num!=4){
-                System.out.println(mensaje);
-            }
+
+            System.out.println(mensaje);
+
         }
 
     }
@@ -58,7 +59,7 @@ public class Main {
         String lista = "";
         for(Producto a: venta.lista){
             nombre = a.getNombre();
-            lista = nombre + lista;
+            lista = lista + " " + nombre;
         }
         return lista;
     }

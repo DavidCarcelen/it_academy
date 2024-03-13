@@ -9,14 +9,13 @@ public class Venta {
     public String calcularTotal(){
         //lanza excepción personalizada "VentaBuidaException"
         String mensaje = "";
-        double suma = 0;
         if (lista.isEmpty()){
             mensaje = "Para hacer una venta primero debes añadir productos";
         } else {
             for(Producto a: lista){
-                suma = suma + a.getPrecio();
+                precioTotal = precioTotal + a.getPrecio();
             }
-            mensaje = "La suma total es: " + suma;
+            mensaje = "La suma total es: " + precioTotal + " €";
 
         }
         return mensaje;

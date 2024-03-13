@@ -3,8 +3,9 @@ package n1ejercicio1;
 import java.util.ArrayList;
 
 public class Venta {
-    private ArrayList<Producto> lista = new ArrayList<Producto>();
+    ArrayList<Producto> lista = new ArrayList<Producto>();
     private double precioTotal = 0;
+
     public String calcularTotal(){
         //lanza excepción personalizada "VentaBuidaException"
         String mensaje = "";
@@ -13,11 +14,13 @@ public class Venta {
             mensaje = "Para hacer una venta primero debes añadir productos";
         } else {
             for(Producto a: lista){
-                //suma = suma + a.precio;
+                suma = suma + a.getPrecio();
             }
+            mensaje = "La suma total es: " + suma;
 
         }
         return mensaje;
     }
+
 
 }

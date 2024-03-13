@@ -2,7 +2,7 @@ package n1ejercicio2;
 
 public class Coche {
     //ATR
-    private static final String marca = "Jeep";
+    private static final String MARCA = "Jeep";
     private static String modelo;
     private final int potencia;
 
@@ -25,6 +25,6 @@ public class Coche {
 
     @Override
     public String toString() {
-        return "marca " + marca + " modelo " + modelo + " potencia " + this.potencia;
+        return "marca " + MARCA + " modelo " + modelo + " potencia " + this.potencia;
     }
 }

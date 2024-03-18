@@ -6,22 +6,32 @@ public class Venta {
     ArrayList<Producto> productos = new ArrayList<Producto>();
     private double precioTotal = 0;
 
-    public String calcularTotal()throws VentaVaciaException{
+    public String calcularTotal() throws VentaVaciaException{
         String mensaje = "";
-        //try {
-            if (productos.isEmpty()){
-                throw new VentaVaciaException("Para hacer una venta primero debes añadir productos");
-            } else {
-                for(Producto a: productos){
-                    precioTotal += a.getPrecio();
-                }
-                mensaje = "La suma total es: " + precioTotal + " €";
+        if (productos.isEmpty()){
+            throw new VentaVaciaException("Para hacer una venta primero debes añadir productos");
+        } else {
+            for(Producto producto: productos){
+                precioTotal += producto.getPrecio();
             }
-       /* } catch(VentaVaciaException e) {
-                mensaje = "ERROR " + e.getMessage();
-        }*/
+            mensaje = "La suma total es: " + precioTotal + " €";
+        }
         return mensaje;
     }
+    public String listaProductos(){
+        String nombre = "";
+        String lista = "";
+        for(Producto a: productos){
+            nombre = a.getNombre();
+            lista += nombre + ", ";
+        }
+        return lista;
+    }
 
+    public String crearProducto(String nombre, double precio) {
+        Producto producto = new Producto(nombre, precio);
+        productos.add(producto);
+        return "Producto "+ nombre + " añadido a la lista.";
+    }
 
 }

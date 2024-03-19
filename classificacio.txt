@@ -2,3 +2,11 @@ Nombre: Bob
 Puntuacion 2
 Nombre: John
 Puntuacion 5
+Nombre: Bob
+Puntuacion 0
+Nombre: Doggy
+Puntuacion 3
+
+Nombre: Pereyra
+Puntuacion 3
+

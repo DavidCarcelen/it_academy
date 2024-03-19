@@ -49,7 +49,7 @@ public class Main {
           File archivo = new File(System.getProperty("user.dir")+ "/classificacio.txt");
           FileWriter writer = new FileWriter(archivo, true);
           writer.write("Nombre: " + name + "\n");
-          writer.write("Puntuacion " + puntuacion + "\n");
+          writer.write("Puntuacion: " + puntuacion + "\n\n");
           writer.close();
       } catch (Exception e){
           throw new RuntimeException(e);

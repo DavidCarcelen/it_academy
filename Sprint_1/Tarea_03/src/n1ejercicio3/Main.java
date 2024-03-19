@@ -5,7 +5,7 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        File file = new File("/Users/davidcarcelen/Desktop/countries.txt");
+        File file = new File(System.getProperty("user.dir")+ "/countries.txt");
         String text = "";
         BufferedReader br = null;
         HashMap <String, String> countryCapital = new HashMap<String, String>();
@@ -46,10 +46,11 @@ public class Main {
         System.out.println("Has conseguido " + puntuacion + " aciertos.");
 
       try {
-          File archivo = new File("/Users/davidcarcelen/Desktop/classificacio.txt");
-          FileWriter escribir = new FileWriter(archivo, true);
-          escribir.write(name);
-          escribir.write(puntuacion);
+          File archivo = new File(System.getProperty("user.dir")+ "/classificacio.txt");
+          FileWriter writer = new FileWriter(archivo, true);
+          writer.write("Nombre: " + name + "\n");
+          writer.write("Puntuacion " + puntuacion + "\n");
+          writer.close();
       } catch (Exception e){
           throw new RuntimeException(e);
         }

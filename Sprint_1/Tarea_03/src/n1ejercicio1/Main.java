@@ -50,8 +50,10 @@ public class Main {
         // Iterador
         Iterator<Month> monthIterator = mapa.iterator();
 
+        System.out.println("\nImprimo HashSet con iterador");
+
         while(monthIterator.hasNext()) {
-            System.out.println(monthIterator.next().getName());
+            System.out.print(monthIterator.next().getName() + " ");
         }
 
 

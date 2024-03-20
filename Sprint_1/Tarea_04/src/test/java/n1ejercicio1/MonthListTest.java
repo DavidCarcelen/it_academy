@@ -18,16 +18,14 @@ public class MonthListTest {
     @DisplayName("Debería no ser nula")
     void yearNotNull(){
 
-        Assertions.assertNotNull( MonthList.getLista());
+        Assertions.assertNotNull(MonthList.getLista());
 
     }
 
-    /*@Test
-    void test3(){
+    @Test
+    void posiicion8(){
 
-        String prueba = "Hola";
+        Assertions.assertEquals("Agosto", MonthList.getLista().get(7));
 
-        Assertions.assertEquals('t', MonthList.primeraLetra(prueba));
-
-    }*/
+    }
 }

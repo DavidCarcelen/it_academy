@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class CalculoDni {
     public static void main(String[] args) {
-        //String tabla = "TRWAGMYFPDXBNJZSQVHLCKE";
         int dniInput = 0;
 
         Scanner input = new Scanner(System.in);

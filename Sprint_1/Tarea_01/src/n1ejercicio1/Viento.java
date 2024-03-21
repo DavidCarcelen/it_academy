@@ -6,7 +6,7 @@ public class Viento extends Instrumento{
         super(name, precio);
         System.out.println("Se ha llamado al constructor de viento");
     }
-
+    @Override
     public String tocar() {
         return "Suena un " + this.name;
     }

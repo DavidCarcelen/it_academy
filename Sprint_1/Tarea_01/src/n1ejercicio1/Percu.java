@@ -6,6 +6,7 @@ public class Percu extends Instrumento {
         super(name, precio);
     }
 
+    @Override
     public String tocar() {
         return "Suena un " + this.name;
     }

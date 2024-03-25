@@ -2,27 +2,31 @@ package n1ejercicio1;
 
 import java.io.File;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.Scanner;
 
 public class DirectorySorter {
 
     public static void main(String[] args) {
         String ruta = "";
+        boolean b = false;
+        File directorio = null;
 
-        Scanner input = new Scanner(System.in);
+        Scanner input = new Scanner(System.in); ///Users/davidcarcelen/Documents
 
-        System.out.println("Introduce ruta del directorio");//C:\Users\formacio\Desktop\David\IT_Academy
-        ruta = input.next();
-        
-        File directorio = new File(ruta);
+        while(!b){
+            System.out.println("Introduce la ruta del directorio");
+            ruta = input.next();
 
-        if (!directorio.isDirectory()) {
-            System.out.println("La ruta no es de un directorio");
+            directorio = new File(ruta);
+
+            if (!directorio.isDirectory()) {
+                System.out.println("La ruta no es de un directorio");
+            } else b = true;
         }
 
         File[] files = directorio.listFiles();
         Arrays.sort(files);
-
 
         System.out.println("Contenido del directorio " + ruta + ":");
         for (File file : files) {

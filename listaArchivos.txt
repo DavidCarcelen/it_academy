@@ -1,0 +1,327 @@
+
+Contenido de la carpeta /Users/davidcarcelen/Documents/it_academy:
+Carpeta .git, última modificación: 23/03/2024 22:54:31
+
+Contenido de la carpeta /Users/davidcarcelen/Documents/it_academy/.git:
+Archivo COMMIT_EDITMSG, última modificación: 23/03/2024 22:54:31
+Archivo HEAD, última modificación: 23/03/2024 22:39:09
+Archivo config, última modificación: 23/03/2024 22:39:09
+Archivo description, última modificación: 23/03/2024 22:39:08
+Carpeta hooks, última modificación: 23/03/2024 22:39:08
+
+Contenido de la carpeta /Users/davidcarcelen/Documents/it_academy/.git/hooks:
+Archivo applypatch-msg.sample, última modificación: 23/03/2024 22:39:08
+Archivo commit-msg.sample, última modificación: 23/03/2024 22:39:08
+Archivo fsmonitor-watchman.sample, última modificación: 23/03/2024 22:39:08
+Archivo post-update.sample, última modificación: 23/03/2024 22:39:08
+Archivo pre-applypatch.sample, última modificación: 23/03/2024 22:39:08
+Archivo pre-commit.sample, última modificación: 23/03/2024 22:39:08
+Archivo pre-merge-commit.sample, última modificación: 23/03/2024 22:39:08
+Archivo pre-push.sample, última modificación: 23/03/2024 22:39:08
+Archivo pre-rebase.sample, última modificación: 23/03/2024 22:39:08
+Archivo pre-receive.sample, última modificación: 23/03/2024 22:39:08
+Archivo prepare-commit-msg.sample, última modificación: 23/03/2024 22:39:08
+Archivo update.sample, última modificación: 23/03/2024 22:39:08
+Archivo index, última modificación: 23/03/2024 22:54:31
+Carpeta info, última modificación: 23/03/2024 22:39:08
+
+Contenido de la carpeta /Users/davidcarcelen/Documents/it_academy/.git/info:
+Archivo exclude, última modificación: 23/03/2024 22:39:08
+Carpeta logs, última modificación: 23/03/2024 22:39:09
+
+Contenido de la carpeta /Users/davidcarcelen/Documents/it_academy/.git/logs:
+Archivo HEAD, última modificación: 23/03/2024 22:54:31
+Carpeta refs, última modificación: 23/03/2024 22:39:09
+
+Contenido de la carpeta /Users/davidcarcelen/Documents/it_academy/.git/logs/refs:
+Carpeta heads, última modificación: 23/03/2024 22:39:09
+
+Contenido de la carpeta /Users/davidcarcelen/Documents/it_academy/.git/logs/refs/heads:
+Archivo main, última modificación: 23/03/2024 22:54:31
+Carpeta remotes, última modificación: 23/03/2024 22:39:09
+
+Contenido de la carpeta /Users/davidcarcelen/Documents/it_academy/.git/logs/refs/remotes:
+Carpeta origin, última modificación: 23/03/2024 23:07:38
+
+Contenido de la carpeta /Users/davidcarcelen/Documents/it_academy/.git/logs/refs/remotes/origin:
+Archivo HEAD, última modificación: 23/03/2024 22:39:09
+Archivo main, última modificación: 23/03/2024 23:07:38
+Carpeta objects, última modificación: 23/03/2024 22:54:31
+
+Contenido de la carpeta /Users/davidcarcelen/Documents/it_academy/.git/objects:
+Carpeta 02, última modificación: 23/03/2024 22:53:58
+
+Contenido de la carpeta /Users/davidcarcelen/Documents/it_academy/.git/objects/02:
+Archivo 55b0651806edadfa69a21f26d65e4bbfd93a16, última modificación: 23/03/2024 22:53:58
+Carpeta 40, última modificación: 23/03/2024 22:54:31
+
+Contenido de la carpeta /Users/davidcarcelen/Documents/it_academy/.git/objects/40:
+Archivo ff3e80b7eba7a7e09f4d58b3fac1acbb4eca94, última modificación: 23/03/2024 22:54:31
+Carpeta 63, última modificación: 23/03/2024 22:54:31
+
+Contenido de la carpeta /Users/davidcarcelen/Documents/it_academy/.git/objects/63:
+Archivo 0fa83023d5b5482bbb4e284d327a33d3c17398, última modificación: 23/03/2024 22:54:31
+Carpeta 6a, última modificación: 23/03/2024 22:54:31
+
+Contenido de la carpeta /Users/davidcarcelen/Documents/it_academy/.git/objects/6a:
+Archivo aa283dc7930fb2f7a7595a1379fb34cb680aed, última modificación: 23/03/2024 22:54:31
+Carpeta a3, última modificación: 23/03/2024 22:54:31
+
+Contenido de la carpeta /Users/davidcarcelen/Documents/it_academy/.git/objects/a3:
+Archivo adbfac925c0938418be0ca6e984489a871c182, última modificación: 23/03/2024 22:54:31
+Carpeta b1, última modificación: 23/03/2024 22:54:31
+
+Contenido de la carpeta /Users/davidcarcelen/Documents/it_academy/.git/objects/b1:
+Archivo 0704032fbb5ebe96b133a5b822122531f3dc75, última modificación: 23/03/2024 22:54:31
+Carpeta b3, última modificación: 23/03/2024 22:54:31
+
+Contenido de la carpeta /Users/davidcarcelen/Documents/it_academy/.git/objects/b3:
+Archivo 79c0e8a3b6ccd365aae5d4a3510e18456bc325, última modificación: 23/03/2024 22:54:31
+Carpeta f4, última modificación: 23/03/2024 22:54:31
+
+Contenido de la carpeta /Users/davidcarcelen/Documents/it_academy/.git/objects/f4:
+Archivo eea8e6ecf8a81609325009ff13787fd26aeac5, última modificación: 23/03/2024 22:54:31
+Carpeta f7, última modificación: 23/03/2024 22:54:31
+
+Contenido de la carpeta /Users/davidcarcelen/Documents/it_academy/.git/objects/f7:
+Archivo b876406925d3b34d78f22ba678beaa6efbc00d, última modificación: 23/03/2024 22:54:31
+Carpeta info, última modificación: 23/03/2024 22:39:08
+
+Contenido de la carpeta /Users/davidcarcelen/Documents/it_academy/.git/objects/info:
+Carpeta pack, última modificación: 23/03/2024 22:39:09
+
+Contenido de la carpeta /Users/davidcarcelen/Documents/it_academy/.git/objects/pack:
+Archivo pack-8d8eb032322c5a93b8d62d31a0cd48aeccb72bde.idx, última modificación: 23/03/2024 22:39:09
+Archivo pack-8d8eb032322c5a93b8d62d31a0cd48aeccb72bde.pack, última modificación: 23/03/2024 22:54:31
+Archivo packed-refs, última modificación: 23/03/2024 22:39:09
+Carpeta refs, última modificación: 23/03/2024 22:39:09
+
+Contenido de la carpeta /Users/davidcarcelen/Documents/it_academy/.git/refs:
+Carpeta heads, última modificación: 23/03/2024 22:54:31
+
+Contenido de la carpeta /Users/davidcarcelen/Documents/it_academy/.git/refs/heads:
+Archivo main, última modificación: 23/03/2024 22:54:31
+Carpeta remotes, última modificación: 23/03/2024 22:39:09
+
+Contenido de la carpeta /Users/davidcarcelen/Documents/it_academy/.git/refs/remotes:
+Carpeta origin, última modificación: 23/03/2024 23:07:38
+
+Contenido de la carpeta /Users/davidcarcelen/Documents/it_academy/.git/refs/remotes/origin:
+Archivo HEAD, última modificación: 23/03/2024 22:39:09
+Archivo main, última modificación: 23/03/2024 23:07:38
+Carpeta tags, última modificación: 23/03/2024 22:39:08
+
+Contenido de la carpeta /Users/davidcarcelen/Documents/it_academy/.git/refs/tags:
+Archivo .gitignore, última modificación: 23/03/2024 22:39:09
+Carpeta .idea, última modificación: 25/03/2024 20:09:17
+
+Contenido de la carpeta /Users/davidcarcelen/Documents/it_academy/.idea:
+Archivo .gitignore, última modificación: 23/03/2024 22:39:09
+Archivo compiler.xml, última modificación: 23/03/2024 22:39:09
+Archivo encodings.xml, última modificación: 23/03/2024 22:39:09
+Archivo jarRepositories.xml, última modificación: 23/03/2024 22:39:09
+Archivo misc.xml, última modificación: 24/03/2024 11:26:38
+Archivo modules.xml, última modificación: 23/03/2024 22:43:05
+Archivo uiDesigner.xml, última modificación: 23/03/2024 22:39:09
+Archivo vcs.xml, última modificación: 23/03/2024 22:39:09
+Archivo workspace.xml, última modificación: 25/03/2024 20:09:16
+Archivo IT_Academy.iml, última modificación: 23/03/2024 22:39:09
+Carpeta Katas, última modificación: 23/03/2024 22:39:09
+
+Contenido de la carpeta /Users/davidcarcelen/Documents/it_academy/Katas:
+Archivo Katas.iml, última modificación: 23/03/2024 22:39:09
+Carpeta src, última modificación: 23/03/2024 22:39:09
+
+Contenido de la carpeta /Users/davidcarcelen/Documents/it_academy/Katas/src:
+Carpeta katas, última modificación: 23/03/2024 22:39:09
+
+Contenido de la carpeta /Users/davidcarcelen/Documents/it_academy/Katas/src/katas:
+Archivo KataPiedraPapelTijera.java, última modificación: 23/03/2024 22:39:09
+Carpeta Sprint_1, última modificación: 23/03/2024 22:39:09
+
+Contenido de la carpeta /Users/davidcarcelen/Documents/it_academy/Sprint_1:
+Carpeta Tarea_01, última modificación: 23/03/2024 22:39:09
+
+Contenido de la carpeta /Users/davidcarcelen/Documents/it_academy/Sprint_1/Tarea_01:
+Archivo Tarea_01.iml, última modificación: 23/03/2024 22:39:09
+Carpeta src, última modificación: 23/03/2024 22:39:09
+
+Contenido de la carpeta /Users/davidcarcelen/Documents/it_academy/Sprint_1/Tarea_01/src:
+Carpeta n1ejercicio1, última modificación: 23/03/2024 22:39:09
+
+Contenido de la carpeta /Users/davidcarcelen/Documents/it_academy/Sprint_1/Tarea_01/src/n1ejercicio1:
+Archivo Cuerda.java, última modificación: 23/03/2024 22:39:09
+Archivo Instrumento.java, última modificación: 23/03/2024 22:39:09
+Archivo Main.java, última modificación: 23/03/2024 22:39:09
+Archivo Percu.java, última modificación: 23/03/2024 22:39:09
+Archivo Viento.java, última modificación: 23/03/2024 22:39:09
+Carpeta n1ejercicio2, última modificación: 23/03/2024 22:39:09
+
+Contenido de la carpeta /Users/davidcarcelen/Documents/it_academy/Sprint_1/Tarea_01/src/n1ejercicio2:
+Archivo Coche.java, última modificación: 23/03/2024 22:39:09
+Archivo Main.java, última modificación: 23/03/2024 22:39:09
+Carpeta Tarea_02, última modificación: 23/03/2024 22:39:09
+
+Contenido de la carpeta /Users/davidcarcelen/Documents/it_academy/Sprint_1/Tarea_02:
+Archivo Tarea_02.iml, última modificación: 23/03/2024 22:39:09
+Carpeta src, última modificación: 23/03/2024 22:39:09
+
+Contenido de la carpeta /Users/davidcarcelen/Documents/it_academy/Sprint_1/Tarea_02/src:
+Carpeta n1ejercicio1, última modificación: 23/03/2024 22:39:09
+
+Contenido de la carpeta /Users/davidcarcelen/Documents/it_academy/Sprint_1/Tarea_02/src/n1ejercicio1:
+Archivo Main.java, última modificación: 23/03/2024 22:39:09
+Archivo Producto.java, última modificación: 23/03/2024 22:39:09
+Archivo Venta.java, última modificación: 23/03/2024 22:39:09
+Archivo VentaVaciaException.java, última modificación: 23/03/2024 22:39:09
+Carpeta Tarea_03, última modificación: 23/03/2024 22:39:09
+
+Contenido de la carpeta /Users/davidcarcelen/Documents/it_academy/Sprint_1/Tarea_03:
+Archivo Tarea_03.iml, última modificación: 23/03/2024 22:39:09
+Carpeta src, última modificación: 23/03/2024 22:39:09
+
+Contenido de la carpeta /Users/davidcarcelen/Documents/it_academy/Sprint_1/Tarea_03/src:
+Carpeta n1ejercicio1, última modificación: 23/03/2024 22:39:09
+
+Contenido de la carpeta /Users/davidcarcelen/Documents/it_academy/Sprint_1/Tarea_03/src/n1ejercicio1:
+Archivo Main.java, última modificación: 23/03/2024 22:39:09
+Archivo Month.java, última modificación: 23/03/2024 22:39:09
+Carpeta n1ejercicio2, última modificación: 23/03/2024 22:39:09
+
+Contenido de la carpeta /Users/davidcarcelen/Documents/it_academy/Sprint_1/Tarea_03/src/n1ejercicio2:
+Archivo Main.java, última modificación: 23/03/2024 22:39:09
+Carpeta n1ejercicio3, última modificación: 23/03/2024 22:39:09
+
+Contenido de la carpeta /Users/davidcarcelen/Documents/it_academy/Sprint_1/Tarea_03/src/n1ejercicio3:
+Archivo Main.java, última modificación: 23/03/2024 22:39:09
+Carpeta Tarea_04, última modificación: 23/03/2024 22:39:09
+
+Contenido de la carpeta /Users/davidcarcelen/Documents/it_academy/Sprint_1/Tarea_04:
+Archivo pom.xml, última modificación: 23/03/2024 22:39:09
+Carpeta src, última modificación: 23/03/2024 22:39:09
+
+Contenido de la carpeta /Users/davidcarcelen/Documents/it_academy/Sprint_1/Tarea_04/src:
+Carpeta main, última modificación: 23/03/2024 22:39:09
+
+Contenido de la carpeta /Users/davidcarcelen/Documents/it_academy/Sprint_1/Tarea_04/src/main:
+Carpeta java, última modificación: 23/03/2024 22:39:09
+
+Contenido de la carpeta /Users/davidcarcelen/Documents/it_academy/Sprint_1/Tarea_04/src/main/java:
+Carpeta n1ejercicio1, última modificación: 23/03/2024 22:39:09
+
+Contenido de la carpeta /Users/davidcarcelen/Documents/it_academy/Sprint_1/Tarea_04/src/main/java/n1ejercicio1:
+Archivo MonthList.java, última modificación: 23/03/2024 22:39:09
+Carpeta n1ejercicio2, última modificación: 23/03/2024 22:39:09
+
+Contenido de la carpeta /Users/davidcarcelen/Documents/it_academy/Sprint_1/Tarea_04/src/main/java/n1ejercicio2:
+Archivo CalculoDni.java, última modificación: 23/03/2024 22:39:09
+Carpeta n1ejercicio3, última modificación: 23/03/2024 22:39:09
+
+Contenido de la carpeta /Users/davidcarcelen/Documents/it_academy/Sprint_1/Tarea_04/src/main/java/n1ejercicio3:
+Archivo OutOfBounds.java, última modificación: 23/03/2024 22:39:09
+Carpeta test, última modificación: 23/03/2024 22:39:09
+
+Contenido de la carpeta /Users/davidcarcelen/Documents/it_academy/Sprint_1/Tarea_04/src/test:
+Carpeta java, última modificación: 23/03/2024 22:39:09
+
+Contenido de la carpeta /Users/davidcarcelen/Documents/it_academy/Sprint_1/Tarea_04/src/test/java:
+Carpeta n1ejercicio1, última modificación: 23/03/2024 22:39:09
+
+Contenido de la carpeta /Users/davidcarcelen/Documents/it_academy/Sprint_1/Tarea_04/src/test/java/n1ejercicio1:
+Archivo MonthListTest.java, última modificación: 23/03/2024 22:39:09
+Carpeta n1ejercicio2, última modificación: 23/03/2024 22:39:09
+
+Contenido de la carpeta /Users/davidcarcelen/Documents/it_academy/Sprint_1/Tarea_04/src/test/java/n1ejercicio2:
+Archivo CalculoDniTest.java, última modificación: 23/03/2024 22:39:09
+Carpeta n1ejercicio3, última modificación: 23/03/2024 22:39:09
+
+Contenido de la carpeta /Users/davidcarcelen/Documents/it_academy/Sprint_1/Tarea_04/src/test/java/n1ejercicio3:
+Archivo OutOfBoundsTest.java, última modificación: 23/03/2024 22:39:09
+Carpeta target, última modificación: 23/03/2024 22:39:09
+
+Contenido de la carpeta /Users/davidcarcelen/Documents/it_academy/Sprint_1/Tarea_04/target:
+Carpeta classes, última modificación: 23/03/2024 22:39:09
+
+Contenido de la carpeta /Users/davidcarcelen/Documents/it_academy/Sprint_1/Tarea_04/target/classes:
+Carpeta n1ejercicio1, última modificación: 23/03/2024 22:39:09
+
+Contenido de la carpeta /Users/davidcarcelen/Documents/it_academy/Sprint_1/Tarea_04/target/classes/n1ejercicio1:
+Archivo MonthList.class, última modificación: 23/03/2024 22:39:09
+Carpeta n1ejercicio2, última modificación: 23/03/2024 22:39:09
+
+Contenido de la carpeta /Users/davidcarcelen/Documents/it_academy/Sprint_1/Tarea_04/target/classes/n1ejercicio2:
+Archivo CalculoDni.class, última modificación: 23/03/2024 22:39:09
+Carpeta n1ejercicio3, última modificación: 23/03/2024 22:39:09
+
+Contenido de la carpeta /Users/davidcarcelen/Documents/it_academy/Sprint_1/Tarea_04/target/classes/n1ejercicio3:
+Archivo OutOfBounds.class, última modificación: 23/03/2024 22:39:09
+Carpeta test-classes, última modificación: 23/03/2024 22:39:09
+
+Contenido de la carpeta /Users/davidcarcelen/Documents/it_academy/Sprint_1/Tarea_04/target/test-classes:
+Carpeta n1ejercicio1, última modificación: 23/03/2024 22:39:09
+
+Contenido de la carpeta /Users/davidcarcelen/Documents/it_academy/Sprint_1/Tarea_04/target/test-classes/n1ejercicio1:
+Archivo MonthListTest.class, última modificación: 23/03/2024 22:39:09
+Carpeta n1ejercicio2, última modificación: 23/03/2024 22:39:09
+
+Contenido de la carpeta /Users/davidcarcelen/Documents/it_academy/Sprint_1/Tarea_04/target/test-classes/n1ejercicio2:
+Archivo CalculoDniTest.class, última modificación: 23/03/2024 22:39:09
+Carpeta n1ejercicio3, última modificación: 23/03/2024 22:39:09
+
+Contenido de la carpeta /Users/davidcarcelen/Documents/it_academy/Sprint_1/Tarea_04/target/test-classes/n1ejercicio3:
+Archivo OutOfBoundsTest.class, última modificación: 23/03/2024 22:39:09
+Carpeta Tarea_05, última modificación: 23/03/2024 22:39:09
+
+Contenido de la carpeta /Users/davidcarcelen/Documents/it_academy/Sprint_1/Tarea_05:
+Archivo pom.xml, última modificación: 23/03/2024 22:39:09
+Carpeta src, última modificación: 23/03/2024 22:39:09
+
+Contenido de la carpeta /Users/davidcarcelen/Documents/it_academy/Sprint_1/Tarea_05/src:
+Carpeta main, última modificación: 23/03/2024 22:39:09
+
+Contenido de la carpeta /Users/davidcarcelen/Documents/it_academy/Sprint_1/Tarea_05/src/main:
+Carpeta java, última modificación: 25/03/2024 19:48:29
+
+Contenido de la carpeta /Users/davidcarcelen/Documents/it_academy/Sprint_1/Tarea_05/src/main/java:
+Carpeta n1ejercicio1, última modificación: 24/03/2024 13:47:11
+
+Contenido de la carpeta /Users/davidcarcelen/Documents/it_academy/Sprint_1/Tarea_05/src/main/java/n1ejercicio1:
+Archivo DirectorySorter.class, última modificación: 24/03/2024 12:39:30
+Archivo DirectorySorter.java, última modificación: 24/03/2024 13:47:11
+Archivo readme.txt, última modificación: 24/03/2024 12:46:48
+Carpeta n1ejercicio2, última modificación: 25/03/2024 19:30:10
+
+Contenido de la carpeta /Users/davidcarcelen/Documents/it_academy/Sprint_1/Tarea_05/src/main/java/n1ejercicio2:
+Archivo DirectorySorter2.java, última modificación: 25/03/2024 19:14:38
+Archivo readme.txt, última modificación: 25/03/2024 19:30:10
+Carpeta n1ejercicio3, última modificación: 25/03/2024 20:57:32
+
+Contenido de la carpeta /Users/davidcarcelen/Documents/it_academy/Sprint_1/Tarea_05/src/main/java/n1ejercicio3:
+Archivo DirectorySorter3.java, última modificación: 25/03/2024 20:57:32
+Carpeta target, última modificación: 23/03/2024 23:08:17
+
+Contenido de la carpeta /Users/davidcarcelen/Documents/it_academy/Sprint_1/Tarea_05/target:
+Carpeta classes, última modificación: 25/03/2024 20:57:34
+
+Contenido de la carpeta /Users/davidcarcelen/Documents/it_academy/Sprint_1/Tarea_05/target/classes:
+Carpeta n1ejercicio1, última modificación: 24/03/2024 13:54:44
+
+Contenido de la carpeta /Users/davidcarcelen/Documents/it_academy/Sprint_1/Tarea_05/target/classes/n1ejercicio1:
+Archivo DirectorySorter.class, última modificación: 24/03/2024 13:54:44
+Carpeta n1ejercicio2, última modificación: 25/03/2024 19:15:27
+
+Contenido de la carpeta /Users/davidcarcelen/Documents/it_academy/Sprint_1/Tarea_05/target/classes/n1ejercicio2:
+Archivo DirectorySorter2.class, última modificación: 25/03/2024 19:15:27
+Carpeta n1ejercicio3, última modificación: 25/03/2024 20:57:34
+
+Contenido de la carpeta /Users/davidcarcelen/Documents/it_academy/Sprint_1/Tarea_05/target/classes/n1ejercicio3:
+Archivo DirectorySorter3.class, última modificación: 25/03/2024 20:57:34
+Carpeta generated-sources, última modificación: 23/03/2024 23:08:17
+
+Contenido de la carpeta /Users/davidcarcelen/Documents/it_academy/Sprint_1/Tarea_05/target/generated-sources:
+Carpeta annotations, última modificación: 23/03/2024 23:08:17
+
+Contenido de la carpeta /Users/davidcarcelen/Documents/it_academy/Sprint_1/Tarea_05/target/generated-sources/annotations:
+Archivo classificacio.txt, última modificación: 23/03/2024 22:39:09
+Archivo countries.txt, última modificación: 23/03/2024 22:39:09
+Archivo listaArchivos.txt, última modificación: 25/03/2024 20:58:01

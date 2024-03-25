@@ -1,7 +1,6 @@
 Para ejecutar por consola:
 
-1- comentar el package n1exercici1;
-2- abrir terminal en direccion donde se encuentra el proyecto -> cd /ruta/carpeta
-3- escribir -> javac DirectorySorter.java
-4- escribir -> java DirectorySorter
-5- escribir ruta, por ejemplo -> C:\Users\formacio\Desktop\David\IT_Academy
+1- abrir terminal en direccion un nivel por encima del package, (/main/java) en este caso.
+2- escribir -> javac n1ejercicio1/DirectorySorter.java (Esto lo hace ejecutable)
+3- escribir -> java n1ejercicio1.DirectorySorter  (lo ejecuta)
+4- escribir ruta del directorio

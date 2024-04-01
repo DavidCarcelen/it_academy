@@ -6,6 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Tarea_06" />
+        <module name="Tarea_07" />
+        <module name="Tarea_08" />
         <module name="Tarea_04" />
         <module name="Tarea_05" />
       </profile>

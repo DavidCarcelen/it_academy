@@ -38,7 +38,7 @@ public class Main {
             entrada.close();
 
             System.out.println("Objeto desserializado");
-        } catch (IOException | ClassNotFoundException e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }

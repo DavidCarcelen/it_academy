@@ -1,4 +1,4 @@
-package n1ejercicio2;
+package n2ejercicio1;
 
 public class Persona {
     String name;

@@ -8,7 +8,7 @@ public class Coche {
 
     public Coche (String mod, int potencia){
         this.potencia = potencia;
-        modelo = mod;
+        Coche.modelo = mod;
 
     }
     //SETTER de potencia, no deja hacer modificar el valor al ser final.

@@ -28,7 +28,7 @@ public class DirectorySorter3 {
                     listarArchivos(file, writer);
                     writer.close();
                 } catch (IOException e) {
-                    e.printStackTrace();
+                    e.getMessage();
                 }
                 b = true;
             }

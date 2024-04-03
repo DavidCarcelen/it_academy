@@ -33,7 +33,7 @@ public class DirectorySorter4 {
                         listarArchivos(file, writer);
                         writer.close();
                     } catch (IOException e) {
-                        e.printStackTrace();
+                        e.getMessage();
                     }
                     b = true;
                 }
@@ -55,7 +55,7 @@ public class DirectorySorter4 {
                     }
                     bufferedReader.close();
                 } catch (IOException e) {
-                    e.printStackTrace();
+                    e.getMessage();
                 }
                 b = true;
 

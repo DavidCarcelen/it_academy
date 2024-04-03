@@ -23,7 +23,7 @@ public class Main {
 
             System.out.println("Objeto serializado correctamente en objeto_serializado.ser");
         } catch (IOException e) {
-            e.printStackTrace();
+            e.getMessage();
         }
     }
     public static void desSerializarObjeto(){
@@ -38,7 +38,7 @@ public class Main {
 
             System.out.println("Objeto desserializado");
         } catch (Exception e) {
-            e.printStackTrace();
+            e.getMessage();
         }
     }
 }

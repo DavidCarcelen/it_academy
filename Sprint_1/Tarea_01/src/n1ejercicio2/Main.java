@@ -3,9 +3,6 @@ package n1ejercicio2;
 public class Main {
     public static void main (String[] args){
 
-        //System.out.println(" Marca de clase (Coche.marca): " + Coche.marca + "\n Modelo de clase (Coche.modelo, se le asigna valor al generar objeto): " + Coche.modelo + "\n No puedo pedir Coche.potencia ya que aún no existe objeto");
-
-
         Coche coche = new Coche("bob", 200);
         Coche coche2 = new Coche("drop",250);
         System.out.println("2 objetos creados, la marca es comun para la clase\n" +

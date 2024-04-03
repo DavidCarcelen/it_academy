@@ -13,7 +13,7 @@ public class DirectorySorter3 {
         String ruta = "";
         boolean b = false;
 
-        Scanner input = new Scanner(System.in); ///Users/davidcarcelen/Documents
+        Scanner input = new Scanner(System.in);
 
         while (!b) {
             System.out.println("Introduce la ruta de la carpeta");

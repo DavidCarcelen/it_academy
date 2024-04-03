@@ -1,7 +1,6 @@
 package n1ejercicio1;
 
 public class Producto {
-    //ATR
     private String nombre = "";
     private double precio = 0;
 

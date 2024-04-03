@@ -12,7 +12,7 @@ public class DirectorySorter {
         boolean b = false;
         File directorio = null;
 
-        Scanner input = new Scanner(System.in); ///Users/davidcarcelen/Documents
+        Scanner input = new Scanner(System.in);
 
         while(!b){
             System.out.println("Introduce la ruta del directorio");

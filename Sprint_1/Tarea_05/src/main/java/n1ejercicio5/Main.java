@@ -7,7 +7,6 @@ public class Main {
 
         MiObjeto miObjeto = new MiObjeto("bob", 6);
 
-
         serializarObjeto(miObjeto);
         desSerializarObjeto();
 

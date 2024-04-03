@@ -12,7 +12,7 @@ public class DirectorySorter4 {
         boolean b = false;
         int num = 0;
 
-        Scanner input = new Scanner(System.in); ///Users/davidcarcelen/Documents
+        Scanner input = new Scanner(System.in);
 
         System.out.println("Elije una opción:\n" +
                 "1 listar archivos de una carpeta\n" +

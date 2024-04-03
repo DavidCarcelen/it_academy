@@ -6,23 +6,13 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
 
-        Coche coche1 = new Coche("Seat",100,"Verde");
-        Coche coche2 = new Coche("Ford",120,"Rojo");
-        Coche coche3 = new Coche("Audi",150,"Azul");
+        int a = 4;
+        int b = 6;
+        int c = 7;
 
+        NoGenericMethods noGenericMethods = new NoGenericMethods(a,b,c);
+        NoGenericMethods noGenericMethods1 = new NoGenericMethods(b,c,a);
+        NoGenericMethods noGenericMethods2 = new NoGenericMethods(c, a, b);
 
-        NoGenericMethods noGenericMethods = new NoGenericMethods(coche1, coche2, coche3);
-
-        Coche coche = (Coche) noGenericMethods.getObj1();
-
-        System.out.println(coche.getMarca());
-
-        //hago nueva llamada al constructor con los argumentos cambiados de orden, compruebo que funciona al ser los tres del mismo tipo y recibo resultado de marca de nuevo objeto.
-
-        NoGenericMethods noGenericMethods1 = new NoGenericMethods(coche2, coche3, coche1);
-
-        coche = (Coche) noGenericMethods1.getObj1();
-
-        System.out.println(coche.getMarca());
     }
 }

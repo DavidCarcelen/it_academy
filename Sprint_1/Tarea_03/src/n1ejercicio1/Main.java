@@ -26,23 +26,23 @@ public class Main {
         for(Month m : year){
             System.out.print(m.getName() + " ");
         }
-        System.out.println("\nAgosto añadido:");
 
         year.add (7, new Month("Agosto"));
+        System.out.println("\nAgosto añadido:");
 
         for(Month m : year){
             System.out.print(m.getName()+ " ");
         }
-        System.out.println("\nAñado objeto que ya existe en la lista (febrero):");
 
-        year.add(year.get(1));
+        year.add(year.get(0));
+        System.out.println("\nAñado objeto que ya existe en la lista (enero):");
 
         for(Month m : year){
             System.out.print(m.getName()+ " ");
         }
-        System.out.println("\nCreo HashSet y imprimo, ya no existe objeto duplicado:");
 
         HashSet<Month> mapa = new HashSet<>(year);
+        System.out.println("\nCreo HashSet y imprimo, ya no existe objeto duplicado:");
 
         for(Month m : mapa){
             System.out.print(m.getName() + " ");

@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Main {
     static Venta venta = new Venta();
-    public static void main(String[] args) { //psvm
+    public static void main(String[] args) {
 
         int num = 0;
         String nombre = "";

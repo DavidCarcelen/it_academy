@@ -22,11 +22,11 @@ CREATE TABLE supplier (
 CREATE TABLE  glasses (
   idGlasses INT PRIMARY KEY AUTO_INCREMENT,
   brand VARCHAR(45),
-  diopter DECIMAL(5),
-  frame SET ('flotant','pasta','metall'),
+  diopter DECIMAL(3,2),
+  frame ENUM ('flotant','pasta','metall'),
   frameColor VARCHAR(20),
   glassColor VARCHAR(20),
-  price DECIMAL(5),
+  price DECIMAL(6,2),
   supplierId INT,
   FOREIGN KEY (supplierId) REFERENCES supplier (idSupplier));
 
@@ -61,5 +61,5 @@ CREATE TABLE  sale (
   glassesId INT,
   dateSale TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     FOREIGN KEY (customerId) REFERENCES customer(idCustomer),
-    FOREIGN KEY (employeeId) REFERENCES employee (idEployee),
+    FOREIGN KEY (employeeId) REFERENCES employee (idEmployee),
     FOREIGN KEY (glassesId) REFERENCES glasses (idGlasses));

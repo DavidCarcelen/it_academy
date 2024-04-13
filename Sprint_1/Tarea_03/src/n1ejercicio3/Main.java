@@ -7,7 +7,6 @@ public class Main {
     public static void main(String[] args) {
         File file = new File(System.getProperty("user.dir")+ "/countries.txt");
         String text = "";
-        BufferedReader br = null;
         HashMap <String, String> countryCapital = new HashMap<String, String>();
         String name = "";
         int num = 0;
@@ -15,17 +14,15 @@ public class Main {
 
         Scanner input = new Scanner(System.in);
 
-        try {
-            br = new BufferedReader(new FileReader(file));
-            while ((text = br.readLine())!= null){
+        try (BufferedReader br = new BufferedReader(new FileReader(file))) {
+            while ((text = br.readLine()) != null) {
                 String[] parts = text.split(" ");
                 countryCapital.put(parts[0], parts[1]);
             }
-        } catch (FileNotFoundException e) {
-            throw new RuntimeException(e);
-        }  catch (IOException e){
-            throw new RuntimeException(e);
+        } catch (IOException e) {
+            throw new RuntimeException("Error al leer/escribir en el archivo.", e);
         }
+
 
         Random random = new Random();
         List<String> keys = new ArrayList<String>(countryCapital.keySet());
@@ -45,14 +42,13 @@ public class Main {
         }
         System.out.println("Has conseguido " + puntuacion + " aciertos.");
 
-      try {
-          File archivo = new File(System.getProperty("user.dir")+ "/classificacio.txt");
-          FileWriter writer = new FileWriter(archivo, true);
-          writer.write("Nombre: " + name + "\n");
-          writer.write("Puntuacion: " + puntuacion + "\n\n");
-          writer.close();
-      } catch (Exception e){
-          throw new RuntimeException(e);
+        File archivo = new File(System.getProperty("user.dir") + "/classificacio.txt");
+        try (FileWriter writer = new FileWriter(archivo, true)) {
+            writer.write("Nombre: " + name + "\n");
+            writer.write("Puntuacion: " + puntuacion + "\n\n");
+        } catch (IOException e) {
+            throw new RuntimeException("Error al escribir el archivo", e);
         }
+
     }
 }

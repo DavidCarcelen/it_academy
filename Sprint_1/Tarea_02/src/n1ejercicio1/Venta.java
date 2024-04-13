@@ -4,18 +4,17 @@ import java.util.ArrayList;
 
 public class Venta {
     ArrayList<Producto> productos = new ArrayList<Producto>();
-    private double precioTotal = 0;
+    private double precioTotal;
 
     public String calcularTotal() throws VentaVaciaException{
         String mensaje = "";
         if (productos.isEmpty()){
             throw new VentaVaciaException("Para hacer una venta primero debes añadir productos");
-        } else {
-            for(Producto producto: productos){
-                precioTotal += producto.getPrecio();
-            }
-            mensaje = "La suma total es: " + precioTotal + " €";
         }
+        for(Producto producto: productos){
+            precioTotal += producto.getPrecio();
+        }
+        mensaje = "La suma total es: " + precioTotal + " €";
         return mensaje;
     }
     public String listaProductos(){

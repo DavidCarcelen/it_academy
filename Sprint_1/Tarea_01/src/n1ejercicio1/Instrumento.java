@@ -1,9 +1,9 @@
 package n1ejercicio1;
 
 public abstract class Instrumento {
-    String name ;
-    int precio;
-    static String staticText = "Static de la super clase";
+    protected String name ;
+    protected int precio;
+    protected static String staticText = "Static de la super clase";
 
     public Instrumento(String name, int precio) {
         this.name = name;

@@ -11,34 +11,29 @@ public class Main {
         desSerializarObjeto();
 
     }
-    public static void serializarObjeto(MiObjeto miObjeto){
-        try {
-            FileOutputStream archivoSalida = new FileOutputStream("objeto_serializado.ser");
-            ObjectOutputStream objetoSalida = new ObjectOutputStream(archivoSalida);
+
+    public static void serializarObjeto(MiObjeto miObjeto) {
+        try (FileOutputStream archivoSalida = new FileOutputStream("objeto_serializado.ser");
+             ObjectOutputStream objetoSalida = new ObjectOutputStream(archivoSalida)) {
 
             objetoSalida.writeObject(miObjeto);
 
-            objetoSalida.close();
-            archivoSalida.close();
-
             System.out.println("Objeto serializado correctamente en objeto_serializado.ser");
         } catch (IOException e) {
-            e.getMessage();
+            System.out.println(e.getMessage());
         }
     }
-    public static void desSerializarObjeto(){
-        try {
-            FileInputStream entrada = new FileInputStream("objeto_serializado.ser");
-            ObjectInputStream objetoEntrada = new ObjectInputStream(entrada);
+
+    public static void desSerializarObjeto() {
+        try (FileInputStream entrada = new FileInputStream("objeto_serializado.ser");
+             ObjectInputStream objetoEntrada = new ObjectInputStream(entrada)) {
 
             MiObjeto miObjeto = (MiObjeto) objetoEntrada.readObject();
 
-            objetoEntrada.close();
-            entrada.close();
-
             System.out.println("Objeto desserializado");
         } catch (Exception e) {
-            e.getMessage();
+            System.out.println(e.getMessage());
         }
     }
 }
+

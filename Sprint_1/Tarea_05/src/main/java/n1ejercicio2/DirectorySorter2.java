@@ -29,16 +29,18 @@ public class DirectorySorter2 {
         }
     }
 
-    public static void listarArchivos(File file){
+    private static void listarArchivos(File file){
         File[] files = file.listFiles();
-        Arrays.sort(files);
-        SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
-        for (File subFile : files) {
-            String tipo = subFile.isDirectory()?"Carpeta":"Archivo";
-            String fechaMod = sdf.format(subFile.lastModified());
-            System.out.println(file.getName() + " tipo: " + tipo + " fecha de última modificación: " + fechaMod);
-            if (subFile.isDirectory()){
-                listarArchivos(subFile);
+        if (files != null){
+            Arrays.sort(files);
+            SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
+            for (File subFile : files) {
+                String tipo = subFile.isDirectory()?"Carpeta":"Archivo";
+                String fechaMod = sdf.format(subFile.lastModified());
+                System.out.println(file.getName() + " tipo: " + tipo + " fecha de última modificación: " + fechaMod);
+                if (subFile.isDirectory()){
+                    listarArchivos(subFile);
+                }
             }
         }
     }

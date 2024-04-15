@@ -14,24 +14,35 @@ public class DirectorySorter {
 
         Scanner input = new Scanner(System.in);
 
-        while(!b){
+        while(!b) {
             System.out.println("Introduce la ruta del directorio");
             ruta = input.next();
 
             directorio = new File(ruta);
 
             if (!directorio.isDirectory()) {
-                System.out.println("La ruta no es de un directorio");
-            } else b = true;
+                try {
+                    throw new CustomException("La ruta especificada no corresponde a un directorio.");
+                } catch (CustomException e) {
+                    System.out.println("Error: " + e.getMessage());
+                }
+            } else {
+                b = true;
+            }
         }
+        input.close();
 
         File[] files = directorio.listFiles();
-        Arrays.sort(files);
 
-        System.out.println("Contenido del directorio " + ruta + ":");
-        for (File file : files) {
-            System.out.println(file.getName());
+        if (files != null){
+            Arrays.sort(files);
+
+            System.out.println("Contenido del directorio " + ruta + ":");
+            for (File file : files) {
+                System.out.println(file.getName());
+            }
         }
     }
 }
+
 

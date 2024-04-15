@@ -26,9 +26,8 @@ public class DirectorySorter3 {
             } else {
                 try (FileWriter writer = new FileWriter("listaArchivos.txt")) {
                     listarArchivos(file, writer);
-                    writer.close();
                 } catch (IOException e) {
-                    e.getMessage();
+                    System.out.println(e.getMessage());
                 }
                 b = true;
             }

@@ -15,8 +15,7 @@ public class Main {
     }
     public static List<String> selector(List<String> lista){
         Stream<String> streamLista = lista.stream()
-                .filter(s -> s.length()==3 )
-                .filter(s -> s.startsWith("A"));
+                .filter(s -> s.length() == 3 && s.startsWith("A"));
 
         return streamLista.collect(Collectors.toList());
     }

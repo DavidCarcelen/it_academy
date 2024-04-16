@@ -9,18 +9,16 @@ public class Main {
     public static void main(String[] args) {
         List<String> lista = new ArrayList<>(Arrays.asList("Bob", "el", "loro", "verde"));
 
-        System.out.println("La lista inicial"+ lista);
+        System.out.println("La lista inicial"+ lista + "\n" +
+                "Lista de palabras que cotienen la letra o :");
 
-        List<String> listaO = metodoContieneO(lista);
-        listaO.forEach(l -> System.out.println("Lista de palabras que cotienen la letra o : " + l));
-
-
+        metodoContieneO(lista).forEach(System.out::println);
     }
     static List<String> metodoContieneO (List<String> lista){
         return lista.stream()
-                .filter(s -> s.contains("o"))
+                .map(s -> s.toUpperCase())
+                .filter(s -> s.contains("O"))
                 .collect(Collectors.toList());
-
 
     }
 }

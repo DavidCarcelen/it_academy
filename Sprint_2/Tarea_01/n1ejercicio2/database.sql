@@ -20,9 +20,7 @@ CREATE TABLE store(
     address VARCHAR (45),
     zip VARCHAR(10),
     cityId INT,
-    provinceId INT,
-    FOREIGN KEY (cityId) REFERENCES city (idCity),
-    FOREIGN KEY (provinceId) REFERENCES province (idProvince));
+    FOREIGN KEY (cityId) REFERENCES city (idCity));
 
 
 CREATE TABLE customer (
@@ -32,10 +30,8 @@ CREATE TABLE customer (
 	address VARCHAR(45),
 	zip VARCHAR(10),
 	cityId INT,
-	provinceId INT,
 	phone VARCHAR(20),
-	FOREIGN KEY (cityId) REFERENCES city (idCity),
-	FOREIGN KEY (provinceId) REFERENCES province (idProvince));
+	FOREIGN KEY (cityId) REFERENCES city (idCity));
       
 CREATE TABLE employee (
 	idEmployee INT PRIMARY KEY AUTO_INCREMENT,
@@ -43,7 +39,7 @@ CREATE TABLE employee (
 	lastName VARCHAR(45),
 	nif VARCHAR(20),
 	phone VARCHAR (15),
-	position ENUM ('cook','rider'),
+	job ENUM ('cook','rider'),
 	storeId INT,
 	FOREIGN KEY (storeId) REFERENCES store(idStore));
         
@@ -69,14 +65,12 @@ CREATE TABLE pizzaOrder (
 	delivery SET ('yes','no'),
 	productSum INT,
 	price DECIMAL (6,2),
-	riderId INT,
     storeId INT,
     productId INT,
     employeeId INT,
 	dateDelivery TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     FOREIGN KEY (productId) REFERENCES product(idProduct),
     FOREIGN KEY (storeId) REFERENCES store (idStore),
-	FOREIGN KEY (riderId) REFERENCES employee (idEmployee),
     FOREIGN KEY (employeeId) REFERENCES employee(idEmployee));
 
     

@@ -33,8 +33,10 @@ CREATE TABLE creditCard(
     idCc INT PRIMARY KEY AUTO_INCREMENT,
     cardNum VARCHAR (60),
     expiration DATE,
-    cod INT
-    );
+    cod INT,
+    userId INT,
+    FOREIGN KEY (userId) REFERENCES user(idUser));
+    
     
     
 CREATE TABLE premiumPayment (
@@ -54,6 +56,18 @@ CREATE TABLE playlist(
     deleted ENUM ('active', 'deleted') DEFAULT 'active',
     dateDeleted TIMESTAMP,
     FOREIGN KEY (userId) REFERENCES user(idUser));
+    
+       CREATE TABLE artist(
+    idArtist INT PRIMARY KEY AUTO_INCREMENT,
+    nameArtist VARCHAR (45),
+    image BLOB);
+    
+        CREATE TABLE album(
+    idAlbum INT PRIMARY KEY AUTO_INCREMENT,
+    nameAlbum VARCHAR(45),
+    cover BLOB,
+    artistId INT,
+    FOREIGN KEY (artistId) REFERENCES artist(idArtist));
 
     
     
@@ -73,16 +87,4 @@ CREATE TABLE playlist(
     FOREIGN KEY (songId) REFERENCES song(idSong));
 
     
-    CREATE TABLE album(
-    idAlbum INT PRIMARY KEY AUTO_INCREMENT,
-    nameAlbum VARCHAR(45),
-    cover BLOB,
-    artistId INT,
-    FOREIGN KEY (artistId) REFERENCES artist(idArtist));
-    
-    
-    CREATE TABLE artist(
-    idArtist INT PRIMARY KEY AUTO_INCREMENT,
-    nameArtist VARCHAR (45),
-    image BLOB);
     

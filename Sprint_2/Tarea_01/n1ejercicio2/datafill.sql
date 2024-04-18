@@ -1,59 +1,59 @@
 INSERT INTO province (nameProv) VALUES
-('Province 1'),
-('Province 2'),
-('Province 3'),
-('Province 4');
+('Bronson'),
+('WellSpring'),
+('HighLands'),
+('LoneStep');
 
 INSERT INTO city (nameCity, provinceId)
 VALUES
-('City 1 - Province 1', 1),
-('City 2 - Province 1', 1),
-('City 3 - Province 1', 1),
-('City 4 - Province 1', 1),
-('City 1 - Province 2', 2),
-('City 2 - Province 2', 2),
-('City 3 - Province 2', 2),
-('City 4 - Province 2', 2),
-('City 1 - Province 3', 3),
-('City 2 - Province 3', 3),
-('City 3 - Province 3', 3),
-('City 4 - Province 3', 3),
-('City 1 - Province 4', 4),
-('City 2 - Province 4', 4),
-('City 3 - Province 4', 4),
-('City 4 - Province 4', 4);
+('City 1', 1),
+('City 2', 1),
+('City 3', 1),
+('City 4', 1),
+('City 5', 2),
+('City 6', 2),
+('City 7', 2),
+('City 8', 2),
+('City 9', 3),
+('City 10', 3),
+('City 11', 3),
+('City 12', 3),
+('City 13', 4),
+('City 14', 4),
+('City 15', 4),
+('City 16', 4);
 
 
 
 
-INSERT INTO customer (nameCustomer, lastName, address, zip, cityId, provinceId, phone)
+INSERT INTO customer (nameCustomer, lastName, address, zip, cityId, phone)
 VALUES
-('John', 'Doe', '123 Main St', '12345', 1, 1, '555-1234'),
-('Jane', 'Smith', '456 Elm St', '54321', 2, 1, '555-5678'),
-('Alice', 'Johnson', '789 Oak St', '67890', 3, 2, '555-1111'),
-('Bob', 'Williams', '321 Pine St', '09876', 1, 2, '555-2222'),
-('Emily', 'Brown', '654 Maple St', '13579', 4, 2, '555-3333'),
-('Michael', 'Taylor', '987 Cedar St', '24680', 4, 3, '555-4444'),
-('Sarah', 'Miller', '741 Birch St', '97531', 2, 3, '555-5555'),
-('David', 'Wilson', '852 Walnut St', '86420', 1, 3, '555-6666'),
-('Olivia', 'Martinez', '369 Cherry St', '75309', 2, 4, '555-7777'),
-('James', 'Garcia', '258 Sycamore St', '35790', 3, 4, '555-8888');
+('John', 'Doe', '123 Main St', '12345', 1, '555-1234'),
+('Jane', 'Smith', '456 Elm St', '54321', 2, '555-5678'),
+('Alice', 'Johnson', '789 Oak St', '67890', 3, '555-1111'),
+('Bob', 'Williams', '321 Pine St', '09876', 4, '555-2222'),
+('Emily', 'Brown', '654 Maple St', '13579', 4, '555-3333'),
+('Michael', 'Taylor', '987 Cedar St', '24680', 4, '555-4444'),
+('Sarah', 'Miller', '741 Birch St', '97531', 2, '555-5555'),
+('David', 'Wilson', '852 Walnut St', '86420', 8, '555-6666'),
+('Olivia', 'Martinez', '369 Cherry St', '75309', 9, '555-7777'),
+('James', 'Garcia', '258 Sycamore St', '35790', 3, '555-8888');
 
 
-INSERT INTO store (nameStore, address, zip, cityId, provinceId)
+INSERT INTO store (nameStore, address, zip, cityId)
 VALUES
-('Pizzería del Centro', 'Av. Principal 123', '12345', 1, 1),
-('Pizza Express', 'Calle Mayor 456', '54321', 2, 2),
-('La Pizzería Italiana', 'Plaza Central 789', '67890', 2, 1),
-('Pizza Hut', 'Calle Peatonal 321', '09876', 1, 3),
-('Domino\'s Pizza', 'Av. Independencia 654', '13579', 2, 4),
-('Little Italy', 'Calle Comercial 987', '24680', 3, 4),
-('Pizza World', 'Paseo del Parque 741', '97531', 2, 2),
-('The Pizza Place', 'Callejón Oscuro 852', '86420', 2, 2),
-('Tony\'s Pizzeria', 'Avenida del Mar 369', '75309', 2, 4),
-('Mamma Mia Pizzería', 'Callejón Estrecho 258', '35790', 1, 1);
+('Pizzería del Centro', 'Av. Principal 123', '12345', 1),
+('Pizza Express', 'Calle Mayor 456', '54321', 2),
+('La Pizzería Italiana', 'Plaza Central 789', '67890', 2),
+('Pizza Hut', 'Calle Peatonal 321', '09876', 1),
+('Domino\'s Pizza', 'Av. Independencia 654', '13579', 2),
+('Little Italy', 'Calle Comercial 987', '24680', 3),
+('Pizza World', 'Paseo del Parque 741', '97531', 2),
+('The Pizza Place', 'Callejón Oscuro 852', '86420', 2),
+('Tony\'s Pizzeria', 'Avenida del Mar 369', '75309', 2),
+('Mamma Mia Pizzería', 'Callejón Estrecho 258', '35790', 1);
 
-INSERT INTO employee (nameEmployee, lastName, nif, phone, position, storeId)
+INSERT INTO employee (nameEmployee, lastName, nif, phone, job, storeId)
 VALUES
 ('Juan', 'Martínez', '12345678A', '555-1111', 'cook', 1),
 ('María', 'García', '23456789B', '555-2222', 'rider', 2),
@@ -76,9 +76,9 @@ INSERT INTO category (nameCategory) VALUES
 INSERT INTO product (productType, nameProduct, info, price, pizzaCategory)
 VALUES
 ('pizza', 'Margherita', 'Tomato sauce, mozzarella cheese, basil', 8.99, 1),
-('pizza', 'Pepperoni', 'Tomato sauce, mozzarella cheese, pepperoni slices', 9.99, 1),
+('pizza', 'Pepperoni', 'Tomato sauce, mozzarella cheese, pepperoni slices', 9.99, 2),
 ('pizza', 'Hawaiian', 'Tomato sauce, mozzarella cheese, ham, pineapple', 10.99, 1),
-('pizza', 'Vegetarian', 'Tomato sauce, mozzarella cheese, assorted vegetables', 10.99, 1);
+('pizza', 'Vegetarian', 'Tomato sauce, mozzarella cheese, assorted vegetables', 10.99, 3);
 
 -- Productos de hamburguesa o bebida
 INSERT INTO product (productType, nameProduct, info, price)
@@ -93,28 +93,28 @@ VALUES
 ('drink', 'Water', '500ml bottle', 1.49);
 
 
-INSERT INTO pizzaOrder (dateOrder, delivery, productSum, price, riderId, storeId, productId, employeeId, dateDelivery)
+INSERT INTO pizzaOrder (dateOrder, delivery, productSum, price, storeId, productId, employeeId, dateDelivery)
 VALUES
-('2024-04-12 12:00:00', 'yes', 1, 8.99, 1, 1, 1, 1, '2024-04-12 13:00:00'),
-('2024-04-12 12:30:00', 'yes', 2, 17.98, 2, 2, 2, 2, '2024-04-12 13:30:00'),
-('2024-04-12 13:00:00', 'no', 1, 6.99, NULL, 3, 3, 3, NULL),
-('2024-04-12 13:30:00', 'yes', 1, 10.99, 3, 4, 4, 4, '2024-04-12 14:30:00'),
-('2024-04-12 14:00:00', 'yes', 2, 17.98, 4, 1, 1, 1, '2024-04-12 15:00:00'),
-('2024-04-12 14:30:00', 'no', 1, 1.99, NULL, 2, 2, 2, NULL),
-('2024-04-12 15:00:00', 'yes', 1, 8.99, 5, 3, 3, 3, '2024-04-12 16:00:00'),
-('2024-04-12 15:30:00', 'yes', 1, 10.99, 6, 4, 4, 4, '2024-04-12 16:30:00'),
-('2024-04-12 16:00:00', 'no', 1, 1.99, NULL, 5, 1, 1, NULL),
-('2024-04-12 16:30:00', 'yes', 2, 17.98, 7, 6, 2, 2, '2024-04-12 17:30:00'),
-('2024-04-12 17:00:00', 'yes', 1, 8.99, 8, 7, 3, 3, '2024-04-12 18:00:00'),
-('2024-04-12 17:30:00', 'no', 1, 1.99, NULL, 8, 4, 4, NULL),
-('2024-04-12 18:00:00', 'yes', 1, 6.99, 9, 9, 1, 1, '2024-04-12 19:00:00'),
-('2024-04-12 18:30:00', 'yes', 2, 21.98, 10, 10, 2, 2, '2024-04-12 19:30:00'),
-('2024-04-12 19:00:00', 'no', 1, 1.99, NULL, 1, 3, 3, NULL),
-('2024-04-12 19:30:00', 'yes', 1, 8.99, 1, 2, 4, 4, '2024-04-12 20:30:00'),
-('2024-04-12 20:00:00', 'yes', 1, 10.99, 2, 3, 1, 1, '2024-04-12 21:00:00'),
-('2024-04-12 20:30:00', 'no', 1, 1.99, NULL, 4, 2, 2, NULL),
-('2024-04-12 21:00:00', 'yes', 2, 17.98, 3, 5, 3, 3, '2024-04-12 22:00:00'),
-('2024-04-12 21:30:00', 'yes', 1, 6.99, 4, 6, 4, 4, '2024-04-12 22:30:00');
+('2024-04-12 12:00:00', 'yes', 1, 8.99, 1, 10, 1, '2024-04-12 13:00:00'),
+('2024-04-12 12:30:00', 'yes', 2, 17.98, 2, 2, 2, '2024-04-12 13:30:00'),
+('2024-04-12 13:00:00', 'no', 1, 6.99, 3, 3, 3, NULL),
+('2024-04-12 13:30:00', 'yes', 1, 10.99, 4, 4, 4, '2024-04-12 14:30:00'),
+('2024-04-12 14:00:00', 'yes', 2, 17.98, 1, 1, 1, '2024-04-12 15:00:00'),
+('2024-04-12 14:30:00', 'no', 1, 1.99, 2, 2, 2, NULL),
+('2024-04-12 15:00:00', 'yes', 1, 8.99, 3, 3, 3, '2024-04-12 16:00:00'),
+('2024-04-12 15:30:00', 'yes', 1, 10.99, 4, 4, 4, '2024-04-12 16:30:00'),
+('2024-04-12 16:00:00', 'no', 1, 1.99, 5, 1, 1, NULL),
+('2024-04-12 16:30:00', 'yes', 2, 17.98, 6, 2, 2, '2024-04-12 17:30:00'),
+('2024-04-12 17:00:00', 'yes', 1, 8.99, 7, 3, 3, '2024-04-12 18:00:00'),
+('2024-04-12 17:30:00', 'no', 1, 1.99, 8, 4, 4, NULL),
+('2024-04-12 18:00:00', 'yes', 1, 6.99, 9, 1, 1, '2024-04-12 19:00:00'),
+('2024-04-12 18:30:00', 'yes', 2, 21.98, 10, 2, 2, '2024-04-12 19:30:00'),
+('2024-04-12 19:00:00', 'no', 1, 1.99, 1, 3, 3, NULL),
+('2024-04-12 19:30:00', 'yes', 1, 8.99, 2, 4, 4, '2024-04-12 20:30:00'),
+('2024-04-12 20:00:00', 'yes', 1, 10.99, 3, 1, 1, '2024-04-12 21:00:00'),
+('2024-04-12 20:30:00', 'no', 1, 1.99, 4, 2, 2, NULL),
+('2024-04-12 21:00:00', 'yes', 2, 17.98, 5, 3, 3, '2024-04-12 22:00:00'),
+('2024-04-12 21:30:00', 'yes', 1, 6.99, 6, 4, 4, '2024-04-12 22:30:00');
 
 
 

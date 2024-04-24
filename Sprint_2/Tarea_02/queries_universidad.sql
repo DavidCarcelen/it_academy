@@ -1,3 +1,5 @@
+USE universidad;
+
 -- Retorna un llistat amb el primer cognom, segon cognom i el nom de tots els/les alumnes. El llistat haurà d'estar ordenat alfabèticament de menor a major pel primer cognom, segon cognom i nom.
 SELECT apellido1, apellido2, nombre FROM persona p
 WHERE p.tipo = 'alumno'

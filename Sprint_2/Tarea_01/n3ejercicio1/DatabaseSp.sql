@@ -35,7 +35,7 @@ CREATE TABLE creditCard(
     expiration DATE,
     cod INT,
     userId INT,
-    FOREIGN KEY (userId) REFERENCES user(idUser));
+    FOREIGN KEY (userId) REFERENCES user(idUser));customer
     
     
     

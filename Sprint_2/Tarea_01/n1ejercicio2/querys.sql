@@ -1,3 +1,5 @@
+USE pizzeria;
+
 -- Llista quants productes de categoria 'Begudes' s'han venut en una determinada localitat.
 
 SELECT COUNT(*) AS bebidas_vendidas

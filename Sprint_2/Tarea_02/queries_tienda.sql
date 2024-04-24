@@ -1,3 +1,5 @@
+USE tienda;
+
 -- Llista el nom de tots els productes que hi ha en la taula producto.
 SELECT nombre FROM producto;
 -- Llista els noms i els preus de tots els productes de la taula producto.

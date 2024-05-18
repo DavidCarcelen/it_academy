@@ -34,14 +34,14 @@ public class KataAhorcado {
                             "\nIntentos restantes: " + (MAX_INTENTOS - intentos) +
                             "\nIntroduce una letra: ");
 
-            String entrada = sc.next();
+            String entrada = sc.next().toLowerCase();
 
             if (entrada.length() != 1 && !palabrasIntentadas.contains(entrada)) {
                 if (entrada.equals(solucion)){
                     ganador = true;
                 }
             }else if(palabrasIntentadas.contains(entrada)){
-                System.out.println("Ya la probaste, esta no está.");
+                mensaje = "Ya la probaste.";
                 repetida = true;
             } else {
                 palabraResuelta = comparador(entrada, solucion, palabraResuelta);

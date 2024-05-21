@@ -11,7 +11,12 @@
         <module name="Tarea_08" />
         <module name="Tarea_04" />
         <module name="Tarea_05" />
+        <module name="Examen" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ExamenPractica" target="22" />
+      <module name="tarea_01" target="22" />
+    </bytecodeTargetLevel>
   </component>
 </project>

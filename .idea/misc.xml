@@ -9,7 +9,16 @@
         <option value="$PROJECT_DIR$/Sprint_1/Tarea_06/pom.xml" />
         <option value="$PROJECT_DIR$/Sprint_1/Tarea_07/pom.xml" />
         <option value="$PROJECT_DIR$/Sprint_1/Tarea_08/pom.xml" />
+        <option value="$PROJECT_DIR$/Sprint_3/tarea_01/pom.xml" />
+        <option value="$PROJECT_DIR$/Examen/pom.xml" />
+        <option value="$PROJECT_DIR$/Examen/untitled/pom.xml" />
+        <option value="$PROJECT_DIR$/Examen/Examen/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/Sprint_3/tarea_01/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_21" project-jdk-name="openjdk-21" project-jdk-type="JavaSDK">

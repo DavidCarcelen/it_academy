@@ -1,4 +1,6 @@
-package examen;
+package examen.model;
+
+import examen.service.DeliveryGestor;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,14 +14,14 @@ public class Pedido {
     private Repartidor repartidor;
     private boolean entregado;
 
-    private double precioTotal;
+    private List<String> gifts;
 
     public Pedido(Cliente cliente) {
         this.id = ++contadorId ;
         this.cliente = cliente;
         this.productos = new ArrayList<>();
-        this.repartidor = DeliveryGestor.asignarRepartidor();
         this.entregado = false;
+        this.gifts = new ArrayList<>();
     }
 
     public int getId() {
@@ -61,38 +63,9 @@ public class Pedido {
     public void setEntregado(boolean entregado) {
         this.entregado = entregado;
     }
-
-    public void listaProductos(){
-        int pins = 0;
-        int gorra = 0;
-        for(Producto producto : this.productos){
-            if (producto.getProductType().equals(ProductType.BURRITO)) {
-                pins++;
-            }else if (producto.getProductType().equals(ProductType.HAMBURGUESA)){
-                gorra++;
-            }
-            if(pins != 0){
-                System.out.println("Te llevas " + pins + " de regalo!!");
-            }else if (gorra != 0){
-                System.out.println("Te llevas " + gorra + " de regalo!!");
-            }
-            System.out.println(producto.getProductType());
-        }
+    public List<String> getGifts() {
+        return gifts;
     }
-
-    public double precioTotal(){
-        double precioSuma = 0;
-        for (Producto producto : this.productos){
-            precioSuma += producto.getPrecio();
-        }
-        if (this.repartidor.getTransporte().equals(Transporte.BICICLETA)){
-            precioSuma = precioSuma + (precioSuma * Transporte.BICICLETA.modificadorPrecio / 100);
-        } else if (this.repartidor.getTransporte().equals(Transporte.MOTO)){
-            precioSuma = precioSuma + (precioSuma * Transporte.MOTO.modificadorPrecio / 100);
-        }
-        return precioSuma;
-    }
-
 
     @Override
     public String toString() {

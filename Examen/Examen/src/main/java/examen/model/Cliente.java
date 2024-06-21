@@ -1,4 +1,4 @@
-package examen;
+package examen.model;
 
 public class Cliente {
     private String nombre;

@@ -1,4 +1,4 @@
-package examen;
+package examen.model;
 
 public class Producto {
 private ProductType productType;
@@ -17,6 +17,9 @@ private ProductType productType;
 
     public double getPrecio (){
         return this.productType.precio;
+    }
+    public String getGift (){
+        return this.productType.gift;
     }
 
 }
